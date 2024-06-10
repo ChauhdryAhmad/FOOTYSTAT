@@ -1,0 +1,85 @@
+body {
+  background-image: url('/src/Client/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  color: #e0e0e0;
+}
+
+.playerprofile-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 30px;
+  border-radius: 15px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  color: #e0e0e0;
+}
+
+h2 {
+  color: #4CAF50;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+  color: #4CAF50;
+  margin-top: 30px;
+  font-size: 2em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+li p {
+  margin: 5px 0;
+}
+
+ul li:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-info p {
+  text-align: center;
+}
+
+.player-stats, .team-stats, .achievements-list, .injuries-list, .transfers-list {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .player-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .player-info p {
+    text-align: left;
+  }
+}
+

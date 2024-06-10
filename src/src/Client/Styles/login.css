@@ -1,0 +1,106 @@
+/* Styles/login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/src/Client/images/bg.jpg');
+    /*<img src={ronaldo_signup} alt="Ronaldo" className="right" />
+    <img src={messi_signup} alt="Messi" className="left" />
+    <img src={haland} alt="Halland" className="leftH" />
+    <img src={mbappe} alt="Mbappe" className="rightM" />*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .header h1 {
+    color: white;
+    font-size: 36px;
+  }
+  
+  .login-container {
+    text-align: center;
+  }
+  
+  .login-box {
+    position: relative;
+    width: 500px;
+    background: rgba(128, 128, 128, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    width: 80%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .login-form p {
+    margin-top: 20px;
+  }
+  
+  .login-form a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  
+  .leftH, .rightM {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    height: 850px;
+  }
+  
+  .leftH {
+    left: -670px;
+  }
+  
+  .rightM {
+    right: -700px;
+    width: auto;
+    height: 950px;
+  }
+  
